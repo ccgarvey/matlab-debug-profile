@@ -1,5 +1,5 @@
 function result = convolve_loop(x, y)
-% Convolves two 1D signals using a loop!
+% Convolves two 1D signals using a loop! Uses zero boundary conditions.
 %
 % param: x, the first signal to convolve
 % param: y, the second signal to convolve
