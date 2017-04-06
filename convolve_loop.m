@@ -9,9 +9,7 @@ function result = convolve_loop(x, y)
     for r_index = 1:numel(result)
         for x_index = 1:numel(x)
             y_index = r_index - x_index + 1;
-            if y_index > 0 && y_index <= numel(y)
-                result(r_index) = result(r_index) + x(x_index)*y(y_index);
-            end
+            result(r_index) = result(r_index) + x(x_index)*y(y_index);
         end
     end
 end
