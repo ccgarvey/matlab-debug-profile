@@ -3,7 +3,7 @@ function run_convolve_timings(trials)
 %
 % Use the profiler to time the execution of this method.
 % param: trials, the number of trials to run
-    dimension = 30;
+    dimension = 100;
     x = rand(dimension, 1);
     y = rand(dimension, 1);
     
